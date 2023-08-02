@@ -140,4 +140,41 @@ header .header_main .img_wrapper .element3 {
 main {
   font-family: "Nunito", sans-serif;
   position: relative;
+  margin-top: 200px;
+}
+main .sct_1 {
+  text-align: center;
+  height: 80vh;
+}
+main .sct_1 h2 {
+  color: #377DFF;
+  font-size: 24px;
+}
+main .sct_1 h1 {
+  font-size: 55px;
+}
+main .sct_1 .sct1_info {
+  margin-top: 5%;
+  display: flex;
+}
+main .sct_1 .sct1_info .sct1_img {
+  position: relative;
+  width: 50%;
+  height: 60%;
+}
+main .sct_1 .sct1_info .sct1_img .sct1_grid {
+  position: absolute;
+  z-index: 0;
+}
+main .sct_1 .sct1_info .sct1_img .sct1_grid:nth-child(1) {
+  bottom: 0px;
+  right: 40px;
+}
+main .sct_1 .sct1_info .sct1_img .sct1_grid:nth-child(2) {
+  top: 0px;
+  left: 35px;
+}
+main .sct_1 .sct1_info .sct1_img .sct1_img {
+  width: 80%;
+  height: 70%;
 }/*# sourceMappingURL=style.css.map */
