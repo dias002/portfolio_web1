@@ -159,27 +159,83 @@ main{
             .sct1_info{
                 margin-top: 5%;   
                 display: flex;
+                align-items: center;
                 .sct1_img{
                     position: relative;
                     width: 50%;
-                    height: 60%;
+                    height: 70%;
                     .sct1_grid{
                         position: absolute;
                         z-index: 0;
                         &:nth-child(1){
                             bottom: 0px;
-                            right: 40px;
+                            right: 63px;
                         }
                         &:nth-child(2){
                             top: 0px;
-                            left: 35px;
+                            left: 60px;
                         }
                     }
                     .sct1_img{
-                        width: 80%;
-                        height: 70%;
+                        width: 75%;
+                        height: 30%;
+                        margin: 10px auto;
                     }
-                   
+                }
+                .sct1_title{
+                    font-family: 'Quicksand', sans-serif;
+                    width: 50%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    .subtitle{
+                        text-align: left;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        width: 70%;
+                        p{
+                            line-height: 32px;
+                        }
+                    }
+                    .sct1_btns{
+                        display: flex;
+                        width: fit-content;
+                        a{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            background: transparent;
+                            border-color: #377DFF;
+                            border-radius: 24px;
+                            padding: 12px 50px 12px 50px;
+                            color: #377DFF;
+                            margin-left: 20px;
+                            font-weight: 600;
+                            cursor: pointer;
+                            text-decoration: none;
+                            -webkit-transition: .3s;
+                            &:hover{
+                                transition: .3s;
+                                background-color: #377DFF;
+                                color: white;
+                                svg{
+                                    fill: white;
+                                }
+                            }
+                            svg{
+                                margin-right: 10px;
+                            }
+                            &:first-child{
+                                font-weight: 700;
+                                background-color: #377DFF;
+                                color: white;
+                                border: none;
+                                margin: 0;
+                            }
+                        }
+                    }
                 }
                 
             }
