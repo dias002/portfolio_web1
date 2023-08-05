@@ -200,6 +200,7 @@ main .sct_1 .sct1_info .sct1_title .subtitle p {
 }
 main .sct_1 .sct1_info .sct1_title .sct1_btns {
   display: flex;
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
